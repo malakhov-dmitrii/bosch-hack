@@ -8,15 +8,13 @@ const Header = () => {
     <div className={styles.Header}>
       <div className={styles.HeaderContent}>
         <div className={styles.Flex}>
-          <Logo />
-
           <div className={styles.NavRow}>
-            <div className={styles.Link}>Портал</div>
-            <div className={styles.Link}>Кабинет организации</div>
-            <div className={styles.ActiveLink}>Личный кабинет</div>
+            <div className={styles.Link}>Portal</div>
+            <div className={styles.Link}>Charts</div>
+            <div className={styles.ActiveLink}>Dashboard</div>
           </div>
         </div>
-        <div>Войти</div>
+        <div className={styles.Link}>Logout</div>
       </div>
     </div>
   );

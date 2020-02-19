@@ -6,17 +6,17 @@ import routes from './routes';
 import { useDispatch } from 'react-redux';
 import Header from './shared/components/Header';
 import Footer from './shared/components/Footer';
-import { Card } from 'antd';
+import { Card, Typography, Divider } from 'antd';
 import Sidebar from './shared/components/Sidebar';
 import styles from './App.module.scss';
 import cn from 'classnames';
 
+const { Title, Text } = Typography;
+
 const App: React.FC = () => {
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    // dispatch({ type: BalanceActions.GetBalance });
-  }, [dispatch]);
+  useEffect(() => {}, [dispatch]);
 
   return (
     <>
@@ -27,7 +27,7 @@ const App: React.FC = () => {
 
             <Card className={cn(styles.Card)}>
               <div className={styles.FlexWrapper}>
-                <Sidebar />
+                {/* <Sidebar /> */}
 
                 <div className={styles.CardBody}>
                   <Switch>

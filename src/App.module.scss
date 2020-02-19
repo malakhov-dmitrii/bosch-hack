@@ -13,11 +13,13 @@
   .CardBody {
     padding: 16px 30px;
     width: 100%;
+    height: 100%;
   }
 }
 
 .FlexWrapper {
   display: flex;
+  height: 100%;
 }
 
 .FlexColumn {
@@ -25,5 +27,4 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }

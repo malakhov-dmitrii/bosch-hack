@@ -2,9 +2,12 @@
   width: 100%;
   background-color: #fff;
   height: 64px;
+  display: flex;
+  align-items: center;
 
   .HeaderContent {
     max-width: 1136px;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
